@@ -311,8 +311,49 @@ div h1{
     
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: #757575; 
+}
+
+.service{
+    position: absolute;
+    width: 371.15px;
+    height: 46.24px;
+    left: 619.43px;
+    top: 991px;
     
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121; 
+}
+
+.working{
+    position: absolute;
+    width: 373.16px;
+    height: 323.7px;
+    left: 215px;
+    top: 1092.3px;
+}
+
+.texting{
+    position: absolute;
+    width: 373.16px;
+    height: 323.7px;
+    left: 618.42px;
+    top: 1092.3px;
+}
+
+.graphic{
+    position: absolute;
+    width: 373.16px;
+    height: 323.7px;
+    left: 1015px;
+    top: 1092px;
 }
 
 .logo-footer{
