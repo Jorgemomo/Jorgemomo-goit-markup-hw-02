@@ -200,5 +200,11 @@ header{
     color: white;
 }
 
+/*button[type=button]:hover{
+    background-color:#2196F3
+}*/
 
+div button:hover{
+    background-color:#2196F3
+}
 
