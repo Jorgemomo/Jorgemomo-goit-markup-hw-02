@@ -41,7 +41,6 @@ header{
     font-size: 26px;
     line-height: 31px;
 
-
     text-align: right;
     letter-spacing: 0.03em;
 
@@ -357,21 +356,40 @@ div h1{
     top: 1092px;
 }
 
-.logo-footer{
+.team{
     position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1510px;
+    
+    background: #F5F4FA;
+}
+
+/*footer{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2158px;
+    
+    background: #2F303A;
+}*/
+
+.logo-footer{
+    position:absolute;
     width: 145px;
     height: 31px;
     left: 215px;
     top: 2218px;
-
+    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-
-    text-decoration: none;
-    letter-spacing: 0.03em;  
-
+        
+    letter-spacing: 0.03em;
+    
     color: #2196F3;
 }
