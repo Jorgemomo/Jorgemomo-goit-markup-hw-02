@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -220,6 +226,8 @@ div h1{
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    color: #212121;
     
 }
 
@@ -238,6 +246,8 @@ div h1{
     /* or 171% */
     
     letter-spacing: 0.03em;
+
+    color:#757575;
 }
 
 .planning{
@@ -366,23 +376,24 @@ div h1{
     background: #F5F4FA;
 }
 
-/*footer{
-    position: absolute;
+.address{
+    position:absolute;
     width: 1600px;
     height: 252px;
     left: 0px;
     top: 2158px;
     
     background: #2F303A;
-}*/
 
-.logo-footer{
+}
+    
+address .logo-footer{
     position:absolute;
     width: 145px;
     height: 31px;
     left: 215px;
     top: 2218px;
-    
+        
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -392,4 +403,6 @@ div h1{
     letter-spacing: 0.03em;
     
     color: #2196F3;
+    display:contents;
 }
+
