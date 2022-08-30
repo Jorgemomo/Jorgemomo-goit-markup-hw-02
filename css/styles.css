@@ -10,7 +10,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-
+    margin: 0;
 }
 
 ul{
@@ -381,7 +381,36 @@ div h1{
     background: #F5F4FA;
 }
 
-.address{
+.team h2{
+    position: absolute;
+    width: 263px;
+    height: 42px;
+    left: 669px;
+    top: 1604px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+figure :first-child{
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 208px;
+    top: 1696px;
+    
+    background: url(../images/andrescubo.jpg);
+    border-radius: 0px;
+}
+
+/*.address{
     position:absolute;
     width: 1600px;
     height: 252px;
@@ -410,4 +439,4 @@ div h1{
     color: #2196F3;
     display:contents;
 }
-
+*/
