@@ -158,3 +158,204 @@ header{
     color:white;
 }
 
+.attention{
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 215px;
+    top: 775px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+}
+
+.quality1{
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 215px;
+    top: 801px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.puntuality{
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 515px;
+    top: 775px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.quality2{
+    position: absolute;
+    width: 270px;
+    height: 96px;
+    left: 515px;
+    top: 801px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color:#757575;
+}
+
+.planning{
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 815px;
+    top: 775px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121; 
+}
+
+.quality3{
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 815px;
+    top: 801px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.technology{
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 1115px;
+    top: 775px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.quality4{
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 1115px;
+    top: 801px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575; 
+}
+
+.service{
+    position: absolute;
+    width: 371.15px;
+    height: 46.24px;
+    left: 619.43px;
+    top: 991px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121; 
+}
+
+.working{
+    position: absolute;
+    width: 373.16px;
+    height: 323.7px;
+    left: 215px;
+    top: 1092.3px;
+}
+
+.texting{
+    position: absolute;
+    width: 373.16px;
+    height: 323.7px;
+    left: 618.42px;
+    top: 1092.3px;
+}
+
+.graphic{
+    position: absolute;
+    width: 373.16px;
+    height: 323.7px;
+    left: 1015px;
+    top: 1092px;
+}
+
+#team h2{
+    position:absolute;
+    width: 263px;
+    height: 42px;
+    left: 669px;
+    top: 1604px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/*#team{
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1510px;
+    background: #F5F4FA;
+}*/
+
+.cubo{
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 208px;
+    top: 1696px;
+    background:url(./images/andrescubo.jpg);
+    border-radius: 0px;
+}
+
+.palacios{
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 515px;
+    top: 1696px;
+    background: url(./images/carlapalacios.jpg);
+    border-radius: 0px;
+}
+
+.dorado{
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 822px;
+    top: 1696px;
+    background: url(./images/mariodorado.jpg);
+    border-radius: 0px;
+}
+
+.mijangos{
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 1115px;
+    top: 1696px;
+    background: url(./images/pablomijangos.jpg);
+    border-radius: 0px;
+}
