@@ -237,16 +237,4 @@ address{
     color: rgba(255, 255, 255, 0.6);   
 }
 
-.found{
-    width: 135px;
-    height: 16px;
-    left: 516px;
-    top: 1703px;
-    font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    display:inline-flex
-    }
-}
+
