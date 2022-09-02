@@ -1,176 +1,139 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+*{box-sizing: border-box;}
 
 body{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     margin: 0;
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
 }
+    
+a{text-decoration: none;}
 
-ul{
+address{font-style: normal;}
+
+a:hover{color:#2196F3;}
+
+li{
     list-style: none;
+    font-weight: 500px;
 }
 
-a{
-    text-decoration: none;
-    color: #212121;
-}
-
-.link:hover{
-    color:#2196F3
-}
-
-header{
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-
-    background: #FFFFFF;
-}
-
-.logo{
-    position: absolute;
+a.logo{
     width: 145px;
     height: 31px;
     left: 215px;
     top: 24px;
-
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-
     text-align: right;
     letter-spacing: 0.03em;
-
     color: #2196F3;
 }
 
+.link{
+    color: #212121;
+    font-weight: 500px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+}
+
+.link-ad{
+    color: #212121;
+    font-weight: 500px;
+    line-height: 16px;
+    color: #757575;
+    letter-spacing: 0.02em;
+
+}
+
+header{
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
 .studio{
-    position: absolute;
     width: 49px;
     height: 16px;
     left: 453px;
     top: 32px;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
-    color: #212121;
 }
 
 .briefcase{
-    position: absolute;
     width: 65px;
     height: 16px;
     left: 552px;
     top: 32px;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
-    color: #212121;
 }
 
 .contacts{
-    position: absolute;
     width: 67px;
     height: 16px;
     left: 667px;
     top: 32px;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
-    color: #212121;
 }
 
 .mail{
-    position: absolute;
     width: 135px;
     height: 16px;
     left: 1078px;
     top: 32px;
-
-    color: #757575;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .tel{
-    position: absolute;
     width: 118px;
     height: 16px;
     left: 1263px;
     top: 32px;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    
-    color: #757575;
 }
 
 .title{
-    position: absolute;
     width: 1600px;
     height: 600px;
     left: -4px;
     top: 80px;
-
     background: #2F303A;
 }
 
-div h1{
-    position: absolute;
+.title h1{
     width: 696px;
     height: 120px;
     left: 452px;
     top: 200px;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-
-
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
-    color: #FFFFFF;
+    color: #FFFFFF;   
 }
 
 #button-index{
-	position: absolute;
 	width: 228px;
 	height: 57px;
-	left: 700px;
-	top: 430px;
-
+	left: 680px;
+	top: 360px;
 	background: #2196F3;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
@@ -180,17 +143,16 @@ div h1{
     color:white;
 }
 
+.button:hover{
+    color:white;
+}
+
 .attention{
-    position: absolute;
     width: 270px;
     height: 16px;
     left: 215px;
     top: 775px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -199,156 +161,99 @@ div h1{
 }
 
 .quality1{
-    position: absolute;
     width: 270px;
     height: 75px;
     left: 215px;
     top: 801px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-    
     letter-spacing: 0.03em;
-    
     color: #757575;
 }
 
 .puntuality{
-    position: absolute;
     width: 270px;
     height: 16px;
     left: 515px;
     top: 775px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #212121;
-    
 }
 
 .quality2{
-    position: absolute;
     width: 270px;
     height: 96px;
     left: 515px;
     top: 801px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-    
     letter-spacing: 0.03em;
-
     color:#757575;
 }
 
 .planning{
-    position: absolute;
     width: 270px;
     height: 16px;
     left: 815px;
     top: 775px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
     color: #212121; 
 }
 
 .quality3{
-    position: absolute;
     width: 270px;
     height: 75px;
     left: 815px;
     top: 801px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-    
     letter-spacing: 0.03em;
-    
     color: #757575;
 }
 
 .technology{
-    position: absolute;
     width: 270px;
     height: 16px;
     left: 1115px;
     top: 775px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
     color: #212121;
 }
 
 .quality4{
-    position: absolute;
     width: 270px;
     height: 75px;
     left: 1115px;
     top: 801px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-    
     letter-spacing: 0.03em;
-    
     color: #757575; 
 }
 
 .service{
-    position: absolute;
     width: 371.15px;
     height: 46.24px;
     left: 619.43px;
     top: 991px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    
     color: #212121; 
 }
 
 .working{
-    position: absolute;
     width: 373.16px;
     height: 323.7px;
     left: 215px;
@@ -356,7 +261,6 @@ div h1{
 }
 
 .texting{
-    position: absolute;
     width: 373.16px;
     height: 323.7px;
     left: 618.42px;
@@ -364,79 +268,120 @@ div h1{
 }
 
 .graphic{
-    position: absolute;
     width: 373.16px;
     height: 323.7px;
     left: 1015px;
     top: 1092px;
 }
 
-.team{
-    position: absolute;
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1510px;
-    
-    background: #F5F4FA;
-}
-
-.team h2{
-    position: absolute;
+#team h2{
     width: 263px;
     height: 42px;
     left: 669px;
     top: 1604px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    
     color: #212121;
 }
 
-figure :first-child{
-    position: absolute;
+#team{
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1510px;
+    background: #F5F4FA;
+}
+
+.cubo{
     width: 270px;
     height: 260px;
     left: 208px;
     top: 1696px;
-    
-    background: url(../images/andrescubo.jpg);
+    background:url(./images/andrescubo.jpg);
     border-radius: 0px;
 }
 
-/*.address{
-    position:absolute;
+.palacios{
+    width: 270px;
+    height: 260px;
+    left: 515px;
+    top: 1696px;
+    background: url(./images/carlapalacios.jpg);
+    border-radius: 0px;
+}
+
+.dorado{
+    width: 270px;
+    height: 260px;
+    left: 822px;
+    top: 1696px;
+    background: url(./images/mariodorado.jpg);
+    border-radius: 0px;
+}
+
+.mijangos{
+    width: 270px;
+    height: 260px;
+    left: 1115px;
+    top: 1696px;
+    background: url(./images/pablomijangos.jpg);
+    border-radius: 0px;
+}
+
+.address{
     width: 1600px;
     height: 252px;
     left: 0px;
     top: 2158px;
-    
     background: #2F303A;
-
 }
-    
-.logo-footer{
-    position:absolute;
+
+.logo-f{
     width: 145px;
     height: 31px;
     left: 215px;
     top: 2218px;
-        
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-        
+    text-align: right;
     letter-spacing: 0.03em;
-    
     color: #2196F3;
-    display:contents;
 }
-*/
+
+.mexico{
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2258px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.mail-footer{
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2306px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.tel-footer{
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2329px;
+    font-weight: 400;
+    line-height: 24px;    
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
