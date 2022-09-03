@@ -6,6 +6,15 @@ body{
     font-style: normal;
     font-size: 14px;
 }
+
+.container{
+    width: 1200px;
+}
+
+.section{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
     
 a{text-decoration: none;}
 
@@ -26,6 +35,8 @@ a.logo{
     text-align: right;
     letter-spacing: 0.03em;
     color: #2196F3;
+    display:flex;
+    padding-left: 215px;
 }
 
 .link{
