@@ -7,6 +7,8 @@ body {
   font-family: "roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
+  background-color: white;
+  color: black;
 }
 
 .container {
@@ -24,6 +26,7 @@ a {
 
 address {
   font-style: normal;
+  background: #2f303a;
 }
 
 a:hover {
@@ -93,17 +96,11 @@ header {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-
-.button {
   color: white;
+  cursor: pointer;
 }
 
-.button:hover {
-  color: white;
-}
-
-.attention {
+.focusing {
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -112,52 +109,7 @@ header {
   color: #212121;
 }
 
-.quality1 {
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.puntuality {
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-}
-
-.quality2 {
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.planning {
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-}
-
-.quality3 {
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.technology {
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-}
-
-.quality4 {
+.description {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -173,7 +125,7 @@ header {
   color: #212121;
 }
 
-.images {
+.images-dedication {
   width: 380;
   height: 294;
 }
@@ -191,10 +143,6 @@ header {
   background: #f5f4fa;
 }
 
-.address {
-  background: #2f303a;
-}
-
 .mexico {
   font-weight: 400;
   line-height: 24px;
@@ -202,14 +150,7 @@ header {
   color: #ffffff;
 }
 
-.mail-footer {
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.tel-footer {
+.footer {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -221,6 +162,7 @@ header {
   background: #f5f4fa;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
 }
 
 .text {
@@ -240,7 +182,7 @@ button[type="button"]:hover {
   background-color: #2196f3;
 }
 
-.found {
+footer p {
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
