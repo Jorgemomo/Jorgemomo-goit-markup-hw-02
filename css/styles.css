@@ -2,13 +2,23 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: black;
+  --body-background-color: white;
+  --title-footer-background: #2f303a;
+  --change-color: #2196f3;
+  --link-title-color: #212121;
+  --link-ad-description-color: #757575;
+  --team-background: #f5f4fa;
+}
+
 body {
   margin: 0;
   font-family: "roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
-  background-color: white;
-  color: black;
+  background-color: var(--body-background-color);
+  color: var(--text-color);
 }
 
 .container {
@@ -24,13 +34,8 @@ a {
   text-decoration: none;
 }
 
-address {
-  font-style: normal;
-  background: #2f303a;
-}
-
 a:hover {
-  color: #2196f3;
+  color: var(--change-color);
 }
 
 li {
@@ -45,11 +50,11 @@ a.logo {
   line-height: 31px;
   text-align: right;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--change-color);
 }
 
 .link {
-  color: #212121;
+  color: var(--link-title-color);
   font-weight: 500px;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -58,12 +63,8 @@ a.logo {
 .link-ad {
   font-weight: 500px;
   line-height: 16px;
-  color: #757575;
+  color: var(--link-ad-description-colorcolor);
   letter-spacing: 0.02em;
-}
-
-header {
-  background: #ffffff;
 }
 
 .navi-menu {
@@ -79,7 +80,7 @@ header {
 }
 
 .title {
-  background: #2f303a;
+  background: var(--title-footer-background);
 }
 
 .title h1 {
@@ -89,14 +90,14 @@ header {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--body-background-color);
 }
 
 #button-index {
-  background: #2196f3;
+  background: var(--change-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: white;
+  color: var(--body-background-color);
   cursor: pointer;
 }
 
@@ -105,15 +106,14 @@ header {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
+  color: var(--link-title-colorcolor);
 }
 
 .description {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--link-ad-description-color);
 }
 
 .service {
@@ -122,7 +122,7 @@ header {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--link-title-colorcolor);
 }
 
 .images-dedication {
@@ -136,18 +136,22 @@ header {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--link-title-color);
 }
 
 #team {
-  background: #f5f4fa;
+  background: var(--team-background);
 }
 
 .mexico {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--body-background-color);
+}
+
+footer {
+  background: var(--title-footer-background);
 }
 
 .footer {
@@ -155,6 +159,7 @@ header {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  background-color: var(--title-footer-background);
 }
 
 .buttons {
@@ -163,23 +168,24 @@ header {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
-}
-
-.text {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: black;
+  color: var(--text-color);
 }
 
-.text:hover {
-  color: white;
+.buttons:hover {
+  color: var(--body-background-color);
 }
 
 button[type="button"]:hover {
-  background-color: #2196f3;
+  background-color: var(--change-color);
+}
+
+.address {
+  font-style: normal;
 }
 
 footer p {
@@ -187,5 +193,5 @@ footer p {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--body-background-color);
 }
