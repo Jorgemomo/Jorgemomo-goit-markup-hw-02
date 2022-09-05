@@ -30,19 +30,6 @@ body {
   margin-bottom: 24px;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--change-color);
-}
-
-li {
-  list-style: none;
-  font-weight: 500px;
-}
-
 a.logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -51,6 +38,7 @@ a.logo {
   text-align: right;
   letter-spacing: 0.03em;
   color: var(--change-color);
+  text-decoration: none;
 }
 
 .link {
@@ -58,26 +46,37 @@ a.logo {
   font-weight: 500px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .link-ad {
   font-weight: 500px;
   line-height: 16px;
-  color: var(--link-ad-description-colorcolor);
+  color: var(--link-ad-description-color);
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .navi-menu {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
+  list-style: none;
+  font-weight: 500;
 }
 
 .navi-menu-address {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
+  list-style: none;
+  font-weight: 500;
 }
+
+/*li {
+  list-style: none;
+  font-weight: 500;
+}*/
 
 .title {
   background: var(--title-footer-background);
@@ -99,6 +98,9 @@ a.logo {
   border-radius: 4px;
   color: var(--body-background-color);
   cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .focusing {
@@ -125,9 +127,10 @@ a.logo {
   color: var(--link-title-colorcolor);
 }
 
-.images-dedication {
-  width: 380;
-  height: 294;
+.images {
+  width: 374px;
+  height: 324;
+  list-style: none;
 }
 
 #team h2 {
@@ -150,16 +153,13 @@ a.logo {
   color: var(--body-background-color);
 }
 
-footer {
-  background: var(--title-footer-background);
-}
-
 .footer {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--title-footer-background);
+  text-decoration: none;
 }
 
 .buttons {
@@ -176,8 +176,17 @@ footer {
   color: var(--text-color);
 }
 
+.none-style {
+  list-style: none;
+  font-weight: 500;
+}
+
 .buttons:hover {
   color: var(--body-background-color);
+}
+
+a:hover {
+  color: var(--change-color);
 }
 
 button[type="button"]:hover {
@@ -186,6 +195,7 @@ button[type="button"]:hover {
 
 .address {
   font-style: normal;
+  background: var(--title-footer-background);
 }
 
 footer p {
@@ -194,4 +204,8 @@ footer p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--body-background-color);
+}
+
+.social-links {
+  list-style: none;
 }
